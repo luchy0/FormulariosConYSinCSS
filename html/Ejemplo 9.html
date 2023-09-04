@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo formulario</title>
+</head>
+<body>
+    <form action="">
+        <h1>Ejemplo formulario</h1>
+    <fieldset>
+        <legend>Formulario Eps</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="[0-9]{1,12}"><br><br>
+        nombre: <br>
+        <input type="text" placeholder="Digite nombre paciente"><br><br>
+        número telefónico: <br>
+        <input type="text" pattern="\+\d\d_\d\d\d_\d\d\d"><br><br>
+        fecha: <br>
+        <input type="text" pattern="\d{4}-\d{2}-\d{2}" placeholder="yyyy-mm-dd"><br><br>
+        Ms o Mr y nombre: <br>
+        <input type="text" pattern="(Mr|Ms)\s\w*"><br><br>
+        Observaciones: <br>
+        <textarea cols="30" rows="2"></textarea>
+
+    </fieldset><br>
+
+    <input type="submit" value="Enviar datos">
+    </form>
+</body>
+</html>
